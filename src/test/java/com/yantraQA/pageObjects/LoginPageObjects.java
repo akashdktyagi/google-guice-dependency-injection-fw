@@ -9,7 +9,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-@ScenarioScoped
 public class LoginPageObjects extends BasePageObjects{
 
     @FindBy(how= How.NAME,using="username")

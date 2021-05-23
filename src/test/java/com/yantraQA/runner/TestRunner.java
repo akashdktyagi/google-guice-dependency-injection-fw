@@ -8,10 +8,12 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "classpath:features",
         glue = {"com.yantraQA.stepdefs"},
-        plugin = {"pretty","html:target/cucumber-reports.html"},
-        tags = "@new_account",
+        plugin = {"pretty",
+                "html:target/cucumber-reports.html",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+        },
+        tags = "",
         dryRun = false
-
 )
 public class TestRunner {
 }

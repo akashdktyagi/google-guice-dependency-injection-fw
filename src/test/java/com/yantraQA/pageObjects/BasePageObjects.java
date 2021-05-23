@@ -5,7 +5,6 @@ import com.yantraQA.base.TestContext;
 import io.cucumber.guice.ScenarioScoped;
 import org.openqa.selenium.WebDriver;
 
-@ScenarioScoped
 public class BasePageObjects {
 
     TestContext testContext;

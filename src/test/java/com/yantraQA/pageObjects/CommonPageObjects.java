@@ -8,7 +8,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-@ScenarioScoped
 public class CommonPageObjects extends BasePageObjects
 {
 	@FindBy(how= How.LINK_TEXT,using="Open New Account")
@@ -34,14 +33,12 @@ public class CommonPageObjects extends BasePageObjects
 		PageFactory.initElements(driver,this);
 	}
 
-	public void clickOpenNewAccount()
-	{
+	public void clickOpenNewAccount() {
 		linkOpenNewAccount.click();
 		testContext.getScenario().log("Open new Account is clicked");
 	}
 
-	public void clickAccountsOverview()
-	{
+	public void clickAccountsOverview() {
 		linkAccountOverview.click();
 		testContext.getScenario().log("AccountOverview is clicked");
 	}
@@ -50,7 +47,6 @@ public class CommonPageObjects extends BasePageObjects
 	{
 		linkTransferFunds.click();
 	}
-
 	public void clickBillPay()
 	{
 		linkBillPay.click();

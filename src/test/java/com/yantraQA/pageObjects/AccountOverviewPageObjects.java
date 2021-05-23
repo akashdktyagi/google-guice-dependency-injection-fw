@@ -6,7 +6,6 @@ import io.cucumber.guice.ScenarioScoped;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 
-@ScenarioScoped
 public class AccountOverviewPageObjects extends BasePageObjects {
 
 	private String accNumberGenericLocator = "//td/a[text()='%s']";

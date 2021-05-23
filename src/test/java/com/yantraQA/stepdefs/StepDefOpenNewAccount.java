@@ -39,14 +39,5 @@ public class StepDefOpenNewAccount {
         openNewAccountPageObjects.openNewAccount(accType,accNumber);
     }
 
-    @Then("New account is created is displayed and new account number is generated")
-    public void new_account_is_created_is_displayed_and_new_account_number_is_generated() {
-        openNewAccountPageObjects.validateNewAccountIsOpened();
-    }
-
-    @Then("New account number is displayed in the account overview page")
-    public void new_account_number_is_displayed_in_the_account_overview_page() {
-        openNewAccountPageObjects.validateAccountNumberIsDisplayedInAccountOverviewPage();
-    }
 
 }

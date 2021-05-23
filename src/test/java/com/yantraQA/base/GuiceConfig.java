@@ -1,6 +1,4 @@
-package com.yantraQA.toBeInjected;
-
-import com.google.inject.AbstractModule;
+package com.yantraQA.base;
 
 public class GuiceConfig{// extends AbstractModule {
 

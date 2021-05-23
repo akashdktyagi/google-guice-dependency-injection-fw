@@ -1,7 +1,7 @@
 package com.yantraQA.pageObjects;
 
 import com.google.inject.Inject;
-import com.yantraQA.toBeInjected.TestContext;
+import com.yantraQA.base.TestContext;
 import io.cucumber.guice.ScenarioScoped;
 import org.openqa.selenium.WebDriver;
 

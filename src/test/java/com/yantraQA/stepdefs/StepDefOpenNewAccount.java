@@ -4,7 +4,7 @@ import com.google.inject.Inject;
 import com.yantraQA.pageObjects.CommonPageObjects;
 import com.yantraQA.pageObjects.LoginPageObjects;
 import com.yantraQA.pageObjects.OpenNewAccountPageObjects;
-import com.yantraQA.toBeInjected.TestContext;
+import com.yantraQA.base.TestContext;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

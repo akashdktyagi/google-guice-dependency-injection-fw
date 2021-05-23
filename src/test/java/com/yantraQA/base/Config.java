@@ -1,7 +1,5 @@
-package com.yantraQA.toBeInjected;
+package com.yantraQA.base;
 
-import com.google.inject.Inject;
-import com.google.inject.name.Named;
 import lombok.Getter;
 import lombok.Setter;
 

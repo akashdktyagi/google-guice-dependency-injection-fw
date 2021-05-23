@@ -1,10 +1,9 @@
 package com.yantraQA.stepdefs;
 
 import com.google.inject.Inject;
-import com.yantraQA.toBeInjected.TestContext;
+import com.yantraQA.base.TestContext;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-import io.cucumber.java.sl.In;
 
 public class Hooks {
     @Inject

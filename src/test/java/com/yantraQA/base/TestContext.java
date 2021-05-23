@@ -1,4 +1,4 @@
-package com.yantraQA.toBeInjected;
+package com.yantraQA.base;
 
 import com.google.inject.Inject;
 import io.cucumber.guice.ScenarioScoped;
@@ -8,7 +8,6 @@ import lombok.Setter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.sql.Time;
 import java.util.concurrent.TimeUnit;
 
 @ScenarioScoped

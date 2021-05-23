@@ -1,0 +1,20 @@
+package com.yantraQA.pageObjects;
+
+import com.google.inject.Inject;
+import com.yantraQA.toBeInjected.TestContext;
+import io.cucumber.guice.ScenarioScoped;
+import org.openqa.selenium.WebDriver;
+
+@ScenarioScoped
+public class BasePageObjects {
+
+    TestContext testContext;
+    WebDriver driver;
+
+    @Inject
+    public BasePageObjects(TestContext testContext){
+        this.testContext = testContext;
+        driver = testContext.getDriver();
+    }
+
+}

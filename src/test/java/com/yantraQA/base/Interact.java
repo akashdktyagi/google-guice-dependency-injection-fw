@@ -15,6 +15,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 @Log4j2
+//Curently not using this lib in the project.
 public class Interact {
 
 	@Getter @Setter

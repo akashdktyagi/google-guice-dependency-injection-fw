@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
                 "html:target/cucumber-reports.html",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
-        tags = "@api",
+        tags = "",
         dryRun = false
 )
 public class TestRunner {
